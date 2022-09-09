@@ -7,19 +7,19 @@ function About() {
             <div className="card-details">
                 <h1>Titilola Shittu</h1>
                 <p className="title">Frontend Engineer</p>
-                <p className="position">Lorem ipsum</p>
+                <a className="position" href="https://lhorla.hashnode.dev">lhorla.hashnode.dev</a>
                 <div className="media-buttons">
-                    <button className="email"><FaEnvelope className="button-icons"/> Email</button>
-                    <button className="linkedin"><FaLinkedin className="button-icons"/>LinkedIn</button>
+                    <a className="email" href="mailto:teteelola@gmail.com"><button><FaEnvelope className="button-icons"/>Email</button></a>
+                    <a href="https://linkedin.com/in/titilolashittu"><button className="linkedin"><FaLinkedin className="button-icons"/>LinkedIn</button></a>
                 </div>
             </div>
             <div className="about">
                 <h3>About</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, ea! Autem, soluta! Soluta veniam obcaecati alias doloremque illo incidunt voluptas eveniet. Doloremque voluptatum praesentium laborum soluta, quaerat eum autem suscipit et porro assumenda beatae earum itaque tempore ut dolore dolorem minima temporibus quas? Nihil saepe minus quasi eos iusto voluptates!</p>
+                <p>Tech enthusiast developing skills in frontend development. She is currently learning React JS and building projects to expand her knowledge.</p>
             </div>
             <div className="interests">
                 <h3>Interests</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio at quas ipsa, qui, sit beatae amet nobis impedit dignissimos cupiditate nam quidem sint repellendus temporibus fugiat earum harum aut nemo provident iure ea molestiae totam placeat. Id, recusandae soluta, adipisci autem expedita eveniet, accusamus quod unde eos suscipit esse placeat?</p>
+                <p>Technical writing, content marketing, blockchain technology</p>
             </div>
         </div>
     )
